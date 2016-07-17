@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task List</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="heading">
+			<h1>Tareas por hacer</h1>
+
+			<form action="">
+				<label for="txtTask">Tarea</label>
+				<input type="text" id="txtTask">
+
+				<label for="sltPrior">Prioridad</label>
+							<select id="sltPrior">
+								<option value="">--Selecciona--</option>
+								<option value="Alta">Alta</option>
+								<option value="Media">Media</option>
+								<option value="Baja">Baja</option>
+							</select>
+				<input type="button" value="Agregar" id="btnAdd">
+			</form>
+
+
+		</div><!--heading-->
+
+	<table id="table1" class="table1">
+		<thead>
+			<tr>
+				<th>Tarea</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+
+	<div class="removeTask">
+		<form action="">
+			<label for="txtRemove">Indique el numero de tarea a remover</label>
+			<input type="text" id="txtRemove">
+
+			<input type="button" id="btnRemove" value="Borrar Tarea">
+		</form>
+		
+	</div><!--removeTask-->
+	
+	</div>
+
+
+
+	<script  src="logica/logica.js"></script>
+</body>
+</html>

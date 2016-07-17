@@ -1,0 +1,112 @@
+body{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.wrapper{
+	width:1200px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #c9b693;
+	padding-bottom: 50px;
+}
+
+.heading{
+	background: #644738 url(../images/fondo5.jpg) 0 0 no-repeat;
+	background-position: center;
+	padding:50px 0;
+
+}
+
+label, input, select{
+	display: block;
+	margin-top:15px;
+	margin-bottom: 15px;
+	font: normal 16px helvetica, arial, sans-serif;
+	color: #fff;
+}
+
+th{
+	background-color:#cbc9c9;
+}
+
+select, input{
+	color: #000;
+
+}
+
+h1{
+	color:#fff;
+	font:bold 32px helvetica, arial, sans-serif;
+}
+
+table, tr, td, th{
+	border-radius: 15px;
+	
+	border-collapse: collapse;
+	padding: 10px;
+	font: normal 16px/24px helvetica, arial, sans-serif;
+}
+
+td{
+	padding: 10px 0 0;
+}
+
+
+.table1{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 60px;
+	border-radius: 50px;
+}
+
+[type=text], [type=button], select{
+	width: 250px;
+	height: 30px;
+	margin: auto;
+}
+
+[type=button]{
+	margin-top: 35px;
+	color:#000;
+	font: normal 16px/24px helvetica, arial, sans-serif;
+	border-radius: 10px;
+	background-color: #47823c;
+	border:1px solid #2f6325;
+	color: #fff;
+}
+
+[type=button]:hover{
+	background-color: #114a06;
+}
+
+.bajo{
+	background-color: #cab359;
+}
+
+.medio{
+	background-color: #2b76b0;
+}
+
+.alto{
+	background-color: #a61f1f;
+}
+
+.error{
+	border:1px solid red;
+}
+
+.deleteButton{
+	background-color: transparent;
+	border: none;
+	width: 50px;
+	font: normal 12px/14px helvetica, arial, sans-serif;
+	margin: 0 5px 0 320px;
+
+}
+
+.deleteButton:hover{
+	background-color: transparent;
+	border: none;
+	text-decoration: underline;
+}
